@@ -22,8 +22,7 @@ RUN apt-get install -y software-properties-common python-software-properties && 
 ENV JAVA_HOME="/usr/lib/jvm/java-8-oracle"
 
 # Identity Server
-RUN apt-get install curl && \
-    mkdir /spid-testenvironment && \
+RUN mkdir /spid-testenvironment && \
     curl -o /spid-testenvironment/spid-testenv-identityserver.tar.gz https://codeload.github.com/italia/spid-testenv-identityserver/tar.gz/v0.9-beta.1 && \
     mkdir /spid-testenvironment/is && \
     tar -zxvf /spid-testenvironment/spid-testenv-identityserver.tar.gz -C /spid-testenvironment/is --strip-components=1 && \
@@ -46,6 +45,6 @@ USER yoda
 # RUN /spid-testenvironment/is/identity-server/bin/wso2server.sh start > /dev/null &
 # RUN /spid-testenvironment/is/identity-server/bin/wso2server.sh stop > /dev/null &
 
-WORKDIR /spid-testenvironment/is/identity-server/bin
+WORKDIR /spid-testenvironment/is
 
-ENTRYPOINT ["wso2server.sh"]
+ENTRYPOINT ["identity-server/bin/wso2server.sh"]
