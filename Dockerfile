@@ -23,7 +23,7 @@ ENV JAVA_HOME="/usr/lib/jvm/java-8-oracle"
 
 # Identity Server
 RUN mkdir /spid-testenvironment && \
-    curl -o /spid-testenvironment/spid-testenv-identityserver.tar.gz https://github.com/italia/spid-testenv-identityserver/archive/docker-compose.tar.gz && \
+    curl -o /spid-testenvironment/spid-testenv-identityserver.tar.gz https://codeload.github.com/italia/spid-testenv-identityserver/tar.gz/docker-compose && \
     mkdir /spid-testenvironment/is && \
     tar -zxvf /spid-testenvironment/spid-testenv-identityserver.tar.gz -C /spid-testenvironment/is --strip-components=1 && \
     rm -f /spid-testenvironment/spid-testenv-identityserver.tar.gz
