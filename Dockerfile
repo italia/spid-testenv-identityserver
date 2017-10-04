@@ -26,7 +26,7 @@ RUN mkdir /spid-testenvironment && \
     curl -o /spid-testenvironment/spid-testenv-identityserver.tar.gz https://codeload.github.com/italia/spid-testenv-identityserver/tar.gz/v0.9-beta.1 && \
     mkdir /spid-testenvironment/is && \
     tar -zxvf /spid-testenvironment/spid-testenv-identityserver.tar.gz -C /spid-testenvironment/is --strip-components=1 && \
-    rm -f /spid-testenvironment/spid-testenv-identityserver.tar.gz && \
+    rm -f /spid-testenvironment/spid-testenv-identityserver.tar.gz
 
 # Set custom conf
 RUN mv /spid-testenvironment/is/spid-confs/conf/conf/carbon.xml /spid-testenvironment/is/identity-server/repository/conf/ && \
