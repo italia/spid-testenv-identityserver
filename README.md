@@ -9,7 +9,7 @@ L'ambiente si compone di due elementi:
 
 ## Docker
 
-Per l'installazione con Docker fare riferimento al repository [spid-testenvironment](https://github.com/italia/spid-testenvironment)
+Per l'installazione con Docker fare riferimento al repository [spid-testenvironment](https://github.com/italia/spid-testenv-docker)
 
 ## Installazione senza Docker
 
