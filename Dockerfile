@@ -31,13 +31,13 @@ RUN mkdir /spid-testenvironment && \
 # Set custom conf
 RUN mv /spid-testenvironment/is/spid-confs/conf/conf/carbon.xml /spid-testenvironment/is/identity-server/repository/conf/ && \
     mv /spid-testenvironment/is/spid-confs/conf/conf/claim-config.xml /spid-testenvironment/is/identity-server/repository/conf/ && \
-    mv /spid-testenvironment/is/spid-confs/conf/bin/wso2server.sh /spid-testenvironment/is/identity-server/bin/ && \
-    chmod +x /spid-testenvironment/is/identity-server/bin/wso2server.sh
+    mv /spid-testenvironment/is/spid-confs/conf/bin/wso2server.sh /spid-testenvironment/is/identity-server/bin/
 
 # Port exposed
 EXPOSE 9443
 
-RUN chown -R yoda:yoda /spid-testenvironment/*
+RUN chown -R yoda:yoda /spid-testenvironment/* && \
+    chmod +x /spid-testenvironment/is/identity-server/bin/wso2server.sh
 
 USER yoda
 
