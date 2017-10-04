@@ -27,12 +27,12 @@ RUN mkdir /spid-testenvironment && \
     mkdir /spid-testenvironment/is && \
     tar -zxvf /spid-testenvironment/spid-testenv-identityserver.tar.gz -C /spid-testenvironment/is --strip-components=1 && \
     rm -f /spid-testenvironment/spid-testenv-identityserver.tar.gz && \
-    chmod +x /spid-testenvironment/is/identity-server/bin/wso2server.sh
 
 # Set custom conf
 RUN mv /spid-testenvironment/is/spid-confs/conf/conf/carbon.xml /spid-testenvironment/is/identity-server/repository/conf/ && \
-    mv /spid-testenvironment/is/spid-confs/conf/conf/claim-config.xml /spid-testenvironment/is/identity-server/repository/conf/ &&\
-    mv /spid-testenvironment/is/spid-confs/conf/bin/wso2server.sh /spid-testenvironment/is/identity-server/bin/ 
+    mv /spid-testenvironment/is/spid-confs/conf/conf/claim-config.xml /spid-testenvironment/is/identity-server/repository/conf/ && \
+    mv /spid-testenvironment/is/spid-confs/conf/bin/wso2server.sh /spid-testenvironment/is/identity-server/bin/ && \
+    chmod +x /spid-testenvironment/is/identity-server/bin/wso2server.sh
 
 # Port exposed
 EXPOSE 9443
@@ -45,6 +45,6 @@ USER yoda
 # RUN /spid-testenvironment/is/identity-server/bin/wso2server.sh start > /dev/null &
 # RUN /spid-testenvironment/is/identity-server/bin/wso2server.sh stop > /dev/null &
 
-WORKDIR /spid-testenvironment/is
+WORKDIR /spid-testenvironment/is/identity-server/bin
 
-ENTRYPOINT ["identity-server/bin/wso2server.sh"]
+ENTRYPOINT ["wso2server.sh"]
