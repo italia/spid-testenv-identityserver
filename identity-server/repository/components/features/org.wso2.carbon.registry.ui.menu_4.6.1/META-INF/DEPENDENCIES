@@ -1,0 +1,15 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+WSO2 Carbon - Registry UI Menu Feature
+
+
+From: 'WSO2 Inc' (http://wso2.com)
+  - WSO2 Carbon - Registry tree menu structure (http://wso2.org/org.wso2.carbon.ui.menu.registry) org.wso2.carbon:org.wso2.carbon.ui.menu.registry:bundle:4.4.7
+    License: Apache License Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+
+
+
+

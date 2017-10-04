@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.jaggeryjs.server" label="Jaggery Server Feature" provider-name="%providerName" version="0.12.6">
+  <description>This feature contains the core bundles required for jaggery
+        functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.jaggeryjs.hostobjects.file" unpack="false" version="0.12.6"/>
+  <plugin id="org.jaggeryjs.hostobjects.uri" unpack="false" version="0.12.6"/>
+  <plugin id="org.jaggeryjs.jaggery.core" unpack="false" version="0.12.6"/>
+  <plugin id="org.jaggeryjs.hostobjects.feed" unpack="false" version="0.12.6"/>
+  <plugin id="org.jaggeryjs.hostobjects.log" unpack="false" version="0.12.6"/>
+  <plugin id="org.jaggeryjs.hostobjects.registry" unpack="false" version="0.12.6"/>
+  <plugin id="org.jaggeryjs.hostobjects.web" unpack="false" version="0.12.6"/>
+  <plugin id="org.jaggeryjs.hostobjects.xhr" unpack="false" version="0.12.6"/>
+  <plugin id="org.jaggeryjs.hostobjects.xslt" unpack="false" version="0.12.6"/>
+  <plugin id="org.jaggeryjs.hostobjects.jaggeryparser" unpack="false" version="0.12.6"/>
+  <plugin id="org.jaggeryjs.jaggery.deployer" unpack="false" version="0.12.6"/>
+  <plugin id="org.jaggeryjs.jaggery.app.mgt" unpack="false" version="0.12.6"/>
+  <plugin id="org.jaggeryjs.scriptengine" unpack="false" version="0.12.6"/>
+  <plugin id="org.jaggeryjs.hostobjects.db" unpack="false" version="0.12.6"/>
+  <plugin id="org.jaggeryjs.jaggery.tools" unpack="false" version="0.12.6"/>
+  <plugin id="org.jaggeryjs.hostobjects.stream" unpack="false" version="0.12.6"/>
+  <require>
+    <import match="equivalent" plugin="commons-cli" version="1.2.0.wso2v1"/>
+    <import match="equivalent" plugin="org.eclipse.wst.jsdt.debug.rhino.debugger" version="1.0.300.v201109150503"/>
+    <import match="equivalent" plugin="wso2-uri-templates" version="1.6.2"/>
+    <import match="equivalent" plugin="rome" version="0.9.0.wso2v1"/>
+    <import match="equivalent" plugin="jdom" version="1.0.0.wso2v1"/>
+    <import match="equivalent" plugin="org.eclipse.wst.jsdt.debug.transport" version="1.0.100.v201109150330"/>
+    <import match="equivalent" plugin="js" version="1.7.0.R4wso2v1"/>
+    <import match="equivalent" plugin="saxon.bps" version="9.0.0.x-wso2v1"/>
+    <import match="equivalent" plugin="json-simple" version="1.1.0.wso2v1"/>
+    <import feature="org.wso2.carbon.core.common" match="compatible" version="4.4.6"/>
+    <import feature="org.wso2.carbon.registry.core.server" match="compatible" version="4.4.6"/>
+    <import feature="org.wso2.carbon.registry.core.common" match="compatible" version="4.4.6"/>
+    <import feature="org.wso2.carbon.security.mgt.server" match="compatible" version="5.1.0"/>
+    <import feature="org.wso2.carbon.registry.contentsearch.server" match="compatible" version="4.5.3"/>
+  </require>
+</feature>

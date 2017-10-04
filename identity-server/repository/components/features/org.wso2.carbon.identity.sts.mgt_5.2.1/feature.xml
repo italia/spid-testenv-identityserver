@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.sts.mgt" label="STS management feature" provider-name="%providerName" version="5.2.1">
+  <description>This feature contains the bundles required for STS management functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <includes id="org.wso2.carbon.identity.sts.mgt.server" optional="false" version="5.2.1"/>
+  <includes id="org.wso2.carbon.identity.sts.mgt.ui" optional="false" version="5.2.1"/>
+</feature>

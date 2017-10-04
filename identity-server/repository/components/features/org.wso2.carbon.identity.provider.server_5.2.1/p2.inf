@@ -1,0 +1,9 @@
+instructions.configure = \
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../../repository); \
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../../repository/conf); \
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../../repository/conf/identity); \
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.identity.provider.server_5.2.1/conf/saml1-assertion-config.xml,target:${installFolder}/../../conf/identity/saml1-assertion-config.xml,overwrite:true);\
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.identity.provider.server_5.2.1/conf/card.jpg,target:${installFolder}/../../conf/card.jpg,overwrite:true);\
+
+properties.0.name=org.wso2.carbon.p2.category.type
+properties.0.value=server

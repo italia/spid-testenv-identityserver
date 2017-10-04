@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.event.handler.notification.server" label="Notification Event management server feature" provider-name="%providerName" version="1.0.0">
+  <description>This feature contains the core bundles required for Back-end functionality of Notification-Event-Handling
+        management</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.event.handler.notification" unpack="false" version="1.0.0"/>
+  <require>
+    <import feature="org.wso2.carbon.event.output.adapter.server" match="compatible" version="5.1.7"/>
+    <import feature="org.wso2.carbon.email.mgt.server" match="compatible" version="1.0.0"/>
+    <import feature="org.wso2.carbon.core" match="compatible" version="4.4.7"/>
+    <import feature="org.wso2.carbon.event.output.adapter.email.server" match="compatible" version="5.1.7"/>
+    <import feature="org.wso2.carbon.identity.core.server" match="compatible" version="5.7.0"/>
+  </require>
+</feature>

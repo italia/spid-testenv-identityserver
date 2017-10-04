@@ -1,0 +1,23 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+WSO2 Carbon - Event Output Websocket Adapter Server Feature
+
+
+From: 'an unknown organization'
+  - WSO2 Carbon - Orbit - tyrus-standalone-client (http://wso2.org) org.glassfish.tyrus.bundles.wso2:tyrus-standalone-client:bundle:1.7-wso2v1
+
+
+From: 'Oracle Corporation' (http://www.oracle.com/)
+  - Tyrus Standalone Client (https://tyrus.java.net/tyrus-bundles/tyrus-standalone-client) org.glassfish.tyrus.bundles:tyrus-standalone-client:jar:1.7
+    License: Dual license consisting of the CDDL v1.1 and GPL v2  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Apache ServiceMix OSGI Common Bundles: jaxb-api (http://www.apache.org/features/camel/bundles/org.apache.servicemix.bundles.jaxb-api-2.0/) org.apache.servicemix.bundles:org.apache.servicemix.bundles.jaxb-api-2.0:bundle:4.0-m1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

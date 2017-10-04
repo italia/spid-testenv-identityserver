@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.oauth" label="OAuth Feature" provider-name="%providerName" version="5.3.4">
+  <description>This feature contains the bundles required for Identity OAuth functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <includes id="org.wso2.carbon.identity.oauth.server" optional="false" version="5.3.4"/>
+  <includes id="org.wso2.carbon.identity.oauth.ui" optional="false" version="5.3.4"/>
+  <includes id="org.wso2.carbon.identity.oauth.common" optional="false" version="5.3.4"/>
+  <includes id="org.wso2.carbon.identity.oauth.dcr.server" optional="false" version="5.3.4"/>
+</feature>

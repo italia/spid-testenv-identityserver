@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.sts.mgt.ui" label="STS management UI Feature" provider-name="%providerName" version="5.2.1">
+  <description>This feature contains the bundles required for Front-end functionality of STS management</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.sts.mgt.ui" unpack="false" version="5.2.1"/>
+  <plugin id="org.wso2.carbon.identity.sts.mgt.stub" unpack="false" version="5.2.1"/>
+  <require>
+    <import feature="org.wso2.carbon.core" match="compatible" version="4.4.7"/>
+  </require>
+</feature>

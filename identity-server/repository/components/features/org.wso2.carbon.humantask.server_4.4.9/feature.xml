@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.humantask.server" label="WSO2 Carbon - HumanTask Core Feature" provider-name="%providerName" version="4.4.9">
+  <description>This feature contains the core bundles required for Back-end HumanTask
+        functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.humantask.skeleton" unpack="false" version="4.4.9"/>
+  <plugin id="org.wso2.carbon.humantask.coordination.module" unpack="false" version="4.4.9"/>
+  <plugin id="org.wso2.carbon.humantask.deployer" unpack="false" version="4.4.9"/>
+  <plugin id="org.wso2.carbon.humantask" unpack="false" version="4.4.9"/>
+  <plugin id="org.wso2.carbon.humantask.cleanup.scheduler" unpack="false" version="4.4.9"/>
+  <require>
+    <import match="equivalent" plugin="org.wso2.carbon.bpel.common" version="4.4.9"/>
+    <import match="equivalent" plugin="geronimo-j2ee-connector_1.5_spec" version="1.0.0.wso2v1"/>
+    <import match="equivalent" plugin="org.apache.geronimo.specs.geronimo-jpa_2.0_spec" version="1.1"/>
+    <import match="equivalent" plugin="ode" version="1.3.5.wso2v16"/>
+    <import match="equivalent" plugin="geronimo-transaction" version="2.0.1.wso2v1"/>
+    <import match="equivalent" plugin="xmlbeans" version="2.3.0.wso2v1"/>
+    <import match="equivalent" plugin="org.apache.openjpa" version="2.2.0.wso2v1"/>
+    <import match="equivalent" plugin="org.wso2.orbit.asm4.asm4-all" version="4.0.0.wso2v1"/>
+    <import match="equivalent" plugin="soa.model.core" version="1.5.0.wso2v4"/>
+    <import match="equivalent" plugin="saxon.he" version="9.4.0.wso2v1"/>
+    <import match="equivalent" plugin="org.wso2.carbon.unifiedendpoint.core" version="4.4.9"/>
+    <import match="equivalent" plugin="groovy-all" version="2.3.9"/>
+    <import match="equivalent" plugin="hsqldb" version="1.8.0.7wso2v1"/>
+    <import match="equivalent" plugin="serp" version="1.13.1.wso2v1"/>
+    <import match="equivalent" plugin="geronimo-connector" version="2.0.1.wso2v1"/>
+    <import match="equivalent" plugin="axiom" version="1.2.11.wso2v11"/>
+    <import match="equivalent" plugin="asm" version="1.5.3.wso2v1"/>
+    <import feature="org.wso2.carbon.system.statistics.server" match="compatible" version="4.5.4"/>
+    <import feature="org.wso2.carbon.attachment.mgt.server" match="compatible" version="4.4.9"/>
+    <import feature="org.wso2.carbon.event.output.adapter.server" match="compatible" version="5.0.11"/>
+    <import feature="org.wso2.carbon.event.output.adapter.email.server" match="compatible" version="5.0.11"/>
+    <import feature="org.wso2.carbon.core.server" match="compatible" version="4.4.7"/>
+    <import feature="org.wso2.carbon.event.output.adapter.sms.server" match="compatible" version="5.0.11"/>
+    <import feature="org.wso2.carbon.service.mgt.server" match="compatible" version="4.7.0"/>
+  </require>
+</feature>

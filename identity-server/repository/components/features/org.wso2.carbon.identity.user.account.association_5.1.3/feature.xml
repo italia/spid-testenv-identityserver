@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.user.account.association" label="WSO2 Carbon User Account Association Feature" provider-name="%providerName" version="5.1.3">
+  <description>This feature contains the bundles required for user account association functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <includes id="org.wso2.carbon.identity.user.account.association.server" optional="false" version="5.1.3"/>
+  <includes id="org.wso2.carbon.identity.user.account.association.ui" optional="false" version="5.1.3"/>
+</feature>

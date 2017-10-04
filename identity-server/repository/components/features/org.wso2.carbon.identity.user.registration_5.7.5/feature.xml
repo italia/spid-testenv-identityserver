@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.user.registration" label="Identity User Registration Feature" provider-name="%providerName" version="5.7.5">
+  <description>This feature contains the core bundles required for User Registration functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <includes id="org.wso2.carbon.identity.user.registration.server" optional="false" version="5.7.5"/>
+  <includes id="org.wso2.carbon.identity.user.registration.ui" optional="false" version="5.7.5"/>
+</feature>

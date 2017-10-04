@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.event" label="Identity Event Feature" provider-name="%providerName" version="5.7.5">
+  <description>This feature contains the bundles required for Identity Core functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <includes id="org.wso2.carbon.identity.event.server" optional="false" version="5.7.5"/>
+</feature>

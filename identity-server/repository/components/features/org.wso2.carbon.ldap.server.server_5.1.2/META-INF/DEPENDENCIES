@@ -1,0 +1,377 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+WSO2 Carbon - LDAP Server Feature
+
+
+From: 'an unknown organization'
+  - AntLR Parser Generator (http://www.antlr.org/) antlr:antlr:jar:2.7.7
+    License: BSD License  (http://www.antlr.org/license.html)
+  - Legion of the Bouncy Castle Java Cryptography APIs (http://www.bouncycastle.org/java.html) bouncycastle:bcprov-jdk15:jar:140
+    License: Bouncy Castle License  (http://www.bouncycastle.org/licence.html)
+  - icu4j  com.ibm.icu:icu4j:jar:2.6.1
+
+  - CLI  commons-cli:commons-cli:jar:1.0
+
+  - Codec  commons-codec:commons-codec:jar:1.2
+
+  - commons.collections.wso2 (http://wso2.org) commons-collections.wso2:commons-collections:bundle:3.2.0.wso2v1
+
+  - commons.dbcp.wso2 (http://wso2.org) commons-dbcp.wso2:commons-dbcp:bundle:1.4.0.wso2v1
+
+  - commons.io.wso2 (http://wso2.org) commons-io.wso2:commons-io:bundle:2.4.0.wso2v1
+
+  - commons.lang.wso2 (http://wso2.org) commons-lang.wso2:commons-lang:bundle:2.6.0.wso2v1
+
+  - commons.pool.wso2 (http://wso2.org) commons-pool.wso2:commons-pool:bundle:1.5.6.wso2v1
+
+  - jargs  jargs:jargs:jar:1.0
+
+  - servlet-api  javax.servlet:servlet-api:jar:2.3
+
+  - Streaming API for XML  javax.xml.stream:stax-api:jar:1.0-2
+    License: GNU General Public Library  (http://www.gnu.org/licenses/gpl.txt)    License: COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0  (http://www.sun.com/cddl/cddl.html)
+  - jdom  jdom:jdom:jar:1.0
+
+  - JLine (http://jline.sourceforge.net) jline:jline:jar:0.9.94
+    License: BSD  (LICENSE.txt)
+  - Log4j (http://logging.apache.org/log4j/docs/) log4j:log4j:jar:1.2.13
+
+  - "Java Concurrency in Practice" book annotations (http://jcip.net/) net.jcip:jcip-annotations:jar:1.0
+
+  - FindBugs-Annotations (http://findbugs.sourceforge.net/) net.sourceforge.findbugs:annotations:jar:1.3.2
+    License: GNU Lesser Public License  (http://www.gnu.org/licenses/lgpl.html)
+  - abdera.wso2 (http://wso2.org) org.apache.abdera.wso2:abdera:bundle:1.0.0.wso2v3
+
+  - ant.wso2 (http://wso2.org) org.apache.ant.wso2:ant:bundle:1.7.0.wso2v1
+
+  - axis2.wso2 (http://wso2.org) org.apache.axis2.wso2:axis2:bundle:1.6.1.wso2v19
+
+  - not-yet-commons-ssl  org.apache.commons.ssl:not-yet-commons-ssl:jar:0.3.9
+
+  - stax.impl.wso2 (http://wso2.org) org.apache.geronimo.specs.wso2:geronimo-stax-api_1.0_spec:bundle:1.0.1.wso2v2
+
+  - httpcore.wso2 (http://wso2.org) org.apache.httpcomponents.wso2:httpcore:bundle:4.3.3.wso2v1
+
+  - Apache log4j  org.apache.log4j.wso2:log4j:bundle:1.2.17.wso2v1
+
+  - xmlsec  org.apache.santuario:xmlsec:jar:1.4.2
+
+  - tomcat-annotations-api (http://tomcat.apache.org/) org.apache.tomcat:tomcat-annotations-api:jar:7.0.69
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - tomcat-api (http://tomcat.apache.org/) org.apache.tomcat:tomcat-api:jar:7.0.69
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - tomcat-catalina (http://tomcat.apache.org/) org.apache.tomcat:tomcat-catalina:jar:7.0.69
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - tomcat-catalina-ha (http://tomcat.apache.org/) org.apache.tomcat:tomcat-catalina-ha:jar:7.0.69
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - tomcat-jdbc (http://tomcat.apache.org/) org.apache.tomcat:tomcat-jdbc:jar:7.0.47
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - tomcat-juli (http://tomcat.apache.org/) org.apache.tomcat:tomcat-juli:jar:7.0.69
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - tomcat-tribes (http://tomcat.apache.org/) org.apache.tomcat:tomcat-tribes:jar:7.0.69
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - tomcat-util (http://tomcat.apache.org/) org.apache.tomcat:tomcat-util:jar:7.0.69
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - tomcat jdbc-pool orbit bundle  org.apache.tomcat.wso2:jdbc-pool:bundle:7.0.34.wso2v2
+
+  - axiom.wso2 (http://wso2.org) org.apache.ws.commons.axiom.wso2:axiom:bundle:1.2.11.wso2v11
+
+  - xmlschema.wso2 (http://wso2.org) org.apache.ws.commons.schema.wso2:XmlSchema:bundle:1.4.7.wso2v3
+
+  - xalan  org.apache.xalan:xalan:jar:2.7.1
+
+  - resolver  org.apache.xerces:resolver:jar:2.9.1
+
+  - serializer  org.apache.xerces:serializer:jar:2.9.1
+
+  - xercesImpl  org.apache.xerces:xercesImpl:jar:2.9.1
+
+  - xml-apis  org.apache.xerces:xml-apis:jar:2.9.1
+
+  - bcprov-ext-jdk15  org.bouncycastle:bcprov-ext-jdk15:jar:1.40
+
+  - Bouncy Castle Provider (http://www.bouncycastle.org/java.html) org.bouncycastle:bcprov-jdk15on:jar:1.52
+    License: Bouncy Castle Licence  (http://www.bouncycastle.org/licence.html)
+  - compass.project.wso2 (http://wso2.org) org.compass-project.wso2:compass:bundle:2.0.1.wso2v2
+
+  - javax.servlet  org.eclipse.equinox:javax.servlet:jar:3.0.0.v201112011016
+
+  - org.eclipse.equinox.http.helper  org.eclipse.equinox:org.eclipse.equinox.http.helper:bundle:1.1.0.wso2v1
+
+  - org.eclipse.osgi  org.eclipse.osgi:org.eclipse.osgi:jar:3.9.1.v20130814-1242
+
+  - org.eclipse.osgi.services  org.eclipse.osgi:org.eclipse.osgi.services:jar:3.3.100.v20130513-1956
+
+  - smack.wso2 (http://wso2.org) org.igniterealtime.smack.wso2:smack:bundle:3.0.4.wso2v1
+
+  - smackx.wso2 (http://wso2.org) org.igniterealtime.smack.wso2:smackx:bundle:3.0.4.wso2v1
+
+  - hazelcast.wso2 (http://wso2.org) org.wso2.orbit.com.hazelcast:hazelcast:bundle:3.5.4.wso2v2
+
+  - commons.collections.wso2 (http://wso2.org) org.wso2.orbit.commons-collections:commons-collections:bundle:3.2.2.wso2v1
+
+  - commons-fileupload orbit bundle (http://wso2.org) org.wso2.orbit.commons-fileupload:commons-fileupload:bundle:1.3.1.wso2v1
+
+  - Commons HTTP Client - Orbit (http://wso2.org) org.wso2.orbit.commons-httpclient:commons-httpclient:bundle:3.1.0.wso2v3
+
+  - ApacheDirectory (http://www.wso2.com) org.wso2.orbit.org.apache.directory:apacheds:bundle:1.5.7.wso2v4
+
+  - neethi.wso2 (http://wso2.org) org.wso2.orbit.org.apache.neethi:neethi:bundle:2.0.4.wso2v5
+
+  - bcprov (http://wso2.org) org.wso2.orbit.org.bouncycastle:bcprov-jdk15on:bundle:1.52.0.wso2v1
+
+  - WSO2 Secure Vault  org.wso2.securevault:org.wso2.securevault:bundle:1.0.0-wso2v2
+
+  - wrapper  wrapper:wrapper:jar:3.2.3
+
+  - WSDL4J (http://sf.net/projects/wsdl4j) wsdl4j:wsdl4j:jar:1.6.2
+    License: CPL  (http://www.opensource.org/licenses/cpl1.0.txt)
+  - wsdl4j.wso2 (http://wso2.org) wsdl4j.wso2:wsdl4j:bundle:1.6.2.wso2v4
+
+  - xalan  xalan:xalan:jar:2.6.0
+
+  - xercesImpl  xerces:xercesImpl:jar:2.6.2
+
+  - xmlParserAPIs  xerces:xmlParserAPIs:jar:2.6.2
+
+  - xerces.wso2 (http://wso2.org) xerces.wso2:xercesImpl:bundle:2.8.1.wso2v2
+
+  - xml-apis (http://xml.apache.org/commons/#external) xml-apis:xml-apis:jar:1.3.02
+
+  - xom (http://www.xom.nu) xom:xom:jar:1.0
+    License: LGPL 
+
+From: 'Apache MINA Project' (http://mina.apache.org/)
+  - Apache MINA Core (http://mina.apache.org/mina-core) org.apache.mina:mina-core:bundle:2.0.0-RC1
+    License: Apache 2.0 License  (http://www.apache.org/licenses/LICENSE-2.0)
+
+From: 'Apache Software Foundation' (http://jakarta.apache.org/)
+  - HttpClient (http://jakarta.apache.org/httpcomponents/httpclient-3.x/) commons-httpclient:commons-httpclient:jar:3.1
+    License: Apache License  (http://www.apache.org/licenses/LICENSE-2.0)
+
+From: 'Apache Software Foundation' (http://www.apache.org)
+  - Activation 1.1 (http://geronimo.apache.org/specs/geronimo-activation_1.1_spec) org.apache.geronimo.specs:geronimo-activation_1.1_spec:jar:1.0.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - JTA 1.1 (http://geronimo.apache.org/specs/geronimo-jta_1.1_spec) org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Streaming API for XML (STAX API 1.0) (http://geronimo.apache.org/specs/geronimo-stax-api_1.0_spec) org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:bundle:1.0.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Web Services Metadata 2.0 (http://geronimo.apache.org/specs/geronimo-ws-metadata_2.0_spec) org.apache.geronimo.specs:geronimo-ws-metadata_2.0_spec:jar:1.1.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Rampart Core - Orbit (http://www.wso2.com) org.apache.rampart.wso2:rampart-core:bundle:1.6.1.wso2v22
+    License: Apache License Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+
+From: 'Apache Software Foundation' (http://www.apache.org/)
+  - FileUpload (http://jakarta.apache.org/commons/fileupload/) commons-fileupload:commons-fileupload:jar:1.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Neethi (http://ws.apache.org/commons/neethi/) org.apache.neethi:neethi:jar:2.0.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Woden - API (http://ws.apache.org/woden/woden-api/) org.apache.woden:woden-api:jar:1.0M9
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Woden - Commons (http://ws.apache.org/woden/woden-impl-commons/) org.apache.woden:woden-impl-commons:jar:1.0M9
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Woden - DOM (http://ws.apache.org/woden/woden-impl-dom/) org.apache.woden:woden-impl-dom:jar:1.0M9
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Apache Software Foundation'
+  - org.apache.tools.ant (http://ant.apache.org/ant/) org.apache.ant:ant:jar:1.7.0
+
+  - ant-launcher (http://ant.apache.org/ant-launcher/) org.apache.ant:ant-launcher:jar:1.7.0
+
+
+From: 'Codehaus' (http://codehaus.org)
+  - jaxen (http://jaxen.codehaus.org/) jaxen:jaxen:jar:1.1.1
+
+
+From: 'Codehaus' (http://www.codehaus.org/)
+  - Stax2 API (http://woodstox.codehaus.org/StAX2) org.codehaus.woodstox:stax2-api:jar:3.1.1
+    License: The BSD License  (http://www.opensource.org/licenses/bsd-license.php)
+  - Woodstox (http://woodstox.codehaus.org) org.codehaus.woodstox:woodstox-core-asl:jar:4.2.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Woodstox (http://woodstox.codehaus.org) org.codehaus.woodstox:wstx-asl:jar:3.2.9
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Extreme! Lab, Indiana University' (http://www.extreme.indiana.edu/)
+  - MXP1: Xml Pull Parser 3rd Edition (XPP3) (http://www.extreme.indiana.edu/xgws/xsoap/xpp/mxp1/) xpp3:xpp3:jar:1.1.4c
+    License: Indiana University Extreme! Lab Software License, vesion 1.1.1  (http://www.extreme.indiana.edu/viewcvs/~checkout~/XPP3/java/LICENSE.txt)    License: Public Domain  (http://creativecommons.org/licenses/publicdomain)    License: Apache Software License, version 1.1  (http://www.apache.org/licenses/LICENSE-1.1)
+
+From: 'Hazelcast, Inc.' (http://www.hazelcast.com/)
+  - hazelcast-all (http://www.hazelcast.com/hazelcast-all/) com.hazelcast:hazelcast-all:jar:3.5.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Internet2' (http://www.internet2.edu/)
+  - OpenSAML-J (https://opensaml.org/) org.opensaml:opensaml:jar:2.2.3
+    License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - OpenSAML-J (https://opensaml.org/) org.opensaml:opensaml1:jar:1.1
+    License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - OpenWS (https://opensaml.org/) org.opensaml:openws:jar:1.2.2
+    License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - XMLTooling-J (https://opensaml.org/) org.opensaml:xmltooling:jar:1.2.0
+    License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Joda.org' (http://www.joda.org)
+  - Joda time (http://joda-time.sourceforge.net) joda-time:joda-time:jar:1.5.2
+    License: Apache 2  (http://www.apache.org/licenses/)
+
+From: 'JUnit' (http://www.junit.org)
+  - JUnit (http://junit.org) junit:junit:jar:4.7
+    License: Common Public License Version 1.0  (http://www.opensource.org/licenses/cpl1.0.txt)
+
+From: 'MetaStuff Ltd.' (http://sourceforge.net/projects/dom4j)
+  - dom4j (http://dom4j.org) dom4j:dom4j:jar:1.6.1
+
+
+From: 'QOS.ch' (http://www.qos.ch)
+  - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.6.1
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+  - SLF4J LOG4J-12 Binding (http://www.slf4j.org) org.slf4j:slf4j-log4j12:jar:1.6.1
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+
+From: 'Sun Microsystems, Inc' (http://www.sun.com/)
+  - jsr311-api (https://jsr311.dev.java.net) javax.ws.rs:jsr311-api:jar:1.0
+    License: CDDL License  (http://www.opensource.org/licenses/cddl1.php)
+
+From: 'The Apache Software Foundation' (http://jakarta.apache.org)
+  - Lang (http://jakarta.apache.org/commons/lang/) commons-lang:commons-lang:jar:2.3
+    License: The Apache Software License, Version 2.0  (/LICENSE.txt)
+
+From: 'The Apache Software Foundation' (http://www.apache.org)
+  - JavaMail 1.4 (http://geronimo.apache.org/maven/specs/geronimo-javamail_1.4_spec/1.6) org.apache.geronimo.specs:geronimo-javamail_1.4_spec:bundle:1.6
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Commons Collections (http://commons.apache.org/collections/) commons-collections:commons-collections:jar:3.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons IO (http://commons.apache.org/io/) commons-io:commons-io:jar:1.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons Logging (http://commons.apache.org/proper/commons-logging/) commons-logging:commons-logging:jar:1.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Pool (http://commons.apache.org/pool/) commons-pool:commons-pool:jar:1.5.6
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Axis2 - Kernel (http://axis.apache.org/axis2/java/core/axis2-kernel/) org.apache.axis2:axis2-kernel:jar:1.6.1-wso2v17
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ApacheDS Avl Partition (http://directory.apache.org/apacheds/1.5/apacheds-avl-partition) org.apache.directory.server:apacheds-avl-partition:jar:1.5.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ApacheDS Core (http://directory.apache.org/apacheds/1.5/apacheds-core) org.apache.directory.server:apacheds-core:jar:1.5.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ApacheDS Core Annotations (http://directory.apache.org/apacheds/1.5/apacheds-core-annotations) org.apache.directory.server:apacheds-core-annotations:jar:1.5.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ApacheDS Core API (http://directory.apache.org/apacheds/1.5/apacheds-core-api) org.apache.directory.server:apacheds-core-api:jar:1.5.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ApacheDS Core AVL (http://directory.apache.org/apacheds/1.5/apacheds-core-avl) org.apache.directory.server:apacheds-core-avl:jar:1.5.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ApacheDS Core Constants (http://directory.apache.org/apacheds/1.5/apacheds-core-constants) org.apache.directory.server:apacheds-core-constants:jar:1.5.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ApacheDS Core Entry (http://directory.apache.org/apacheds/1.5/apacheds-core-entry) org.apache.directory.server:apacheds-core-entry:jar:1.5.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ApacheDS Core JNDI (http://directory.apache.org/apacheds/1.5/apacheds-core-jndi) org.apache.directory.server:apacheds-core-jndi:jar:1.5.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ApacheDS Core Mock (http://directory.apache.org/apacheds/1.5/apacheds-core-mock) org.apache.directory.server:apacheds-core-mock:jar:1.5.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ApacheDS I18n (http://directory.apache.org/apacheds/1.5/apacheds-i18n) org.apache.directory.server:apacheds-i18n:jar:1.5.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ApacheDS Interceptors for Kerberos (http://directory.apache.org/apacheds/1.5/apacheds-interceptor-kerberos) org.apache.directory.server:apacheds-interceptor-kerberos:jar:1.5.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ApacheDS JDBM implementation (http://directory.apache.org/apacheds/1.5/apacheds-jdbm) org.apache.directory.server:apacheds-jdbm:jar:1.5.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ApacheDS JDBM Partition (http://directory.apache.org/apacheds/1.5/apacheds-jdbm-partition) org.apache.directory.server:apacheds-jdbm-partition:jar:1.5.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ApacheDS JDBM Store (http://directory.apache.org/apacheds/1.5/apacheds-jdbm-store) org.apache.directory.server:apacheds-jdbm-store:jar:1.5.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ApacheDS Protocol Kerberos Shared (http://directory.apache.org/apacheds/1.5/apacheds-kerberos-shared) org.apache.directory.server:apacheds-kerberos-shared:jar:1.5.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ApacheDS LDIF Partition (http://directory.apache.org/apacheds/1.5/apacheds-ldif-partition) org.apache.directory.server:apacheds-ldif-partition:jar:1.5.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ApacheDS Protocol Kerberos (http://directory.apache.org/apacheds/1.5/apacheds-protocol-kerberos) org.apache.directory.server:apacheds-protocol-kerberos:jar:1.5.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ApacheDS Protocol Ldap (http://directory.apache.org/apacheds/1.5/apacheds-protocol-ldap) org.apache.directory.server:apacheds-protocol-ldap:jar:1.5.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ApacheDS Protocol Shared (http://directory.apache.org/apacheds/1.5/apacheds-protocol-shared) org.apache.directory.server:apacheds-protocol-shared:jar:1.5.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ApacheDS Utils (http://directory.apache.org/apacheds/1.5/apacheds-utils) org.apache.directory.server:apacheds-utils:jar:1.5.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ApacheDS XDBM Base (http://directory.apache.org/apacheds/1.5/apacheds-xdbm-base) org.apache.directory.server:apacheds-xdbm-base:jar:1.5.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ApacheDS Generalized (X) DBM Search Engine (http://directory.apache.org/apacheds/1.5/apacheds-xdbm-search) org.apache.directory.server:apacheds-xdbm-search:jar:1.5.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ApacheDS Generalized (X) DBM Tools (http://directory.apache.org/apacheds/1.5/apacheds-xdbm-tools) org.apache.directory.server:apacheds-xdbm-tools:jar:1.5.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Directory Shared ASN.1 (http://www.apache.org/project/shared-parent/shared-asn1/) org.apache.directory.shared:shared-asn1:jar:0.9.19
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Directory Shared ASN.1 Codec (http://www.apache.org/project/shared-parent/shared-asn1-codec/) org.apache.directory.shared:shared-asn1-codec:jar:0.9.19
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Directory Shared Cursor (http://www.apache.org/project/shared-parent/shared-cursor/) org.apache.directory.shared:shared-cursor:jar:0.9.19
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Directory Shared DSML Parser (http://www.apache.org/project/shared-parent/shared-dsml-parser/) org.apache.directory.shared:shared-dsml-parser:jar:0.9.19
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Directory Shared I18n (http://www.apache.org/project/shared-parent/shared-i18n/) org.apache.directory.shared:shared-i18n:jar:0.9.19
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Directory Shared Ldap (http://www.apache.org/project/shared-parent/shared-ldap/) org.apache.directory.shared:shared-ldap:jar:0.9.19
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Directory Shared Ldap Constants (http://www.apache.org/project/shared-parent/shared-ldap-constants/) org.apache.directory.shared:shared-ldap-constants:jar:0.9.19
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Directory Shared Ldap Converters (http://www.apache.org/project/shared-parent/shared-ldap-converter/) org.apache.directory.shared:shared-ldap-converter:jar:0.9.19
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Directory Shared JNDI (http://www.apache.org/project/shared-parent/shared-ldap-jndi/) org.apache.directory.shared:shared-ldap-jndi:jar:0.9.19
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Directory Shared LDAP Schema (http://www.apache.org/project/shared-parent/shared-ldap-schema/) org.apache.directory.shared:shared-ldap-schema:jar:0.9.19
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Directory Shared LDAP Schema DAO (http://www.apache.org/project/shared-parent/shared-ldap-schema-dao/) org.apache.directory.shared:shared-ldap-schema-dao:jar:0.9.19
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Directory Shared LDAP Schema Loader (http://www.apache.org/project/shared-parent/shared-ldap-schema-loader/) org.apache.directory.shared:shared-ldap-schema-loader:jar:0.9.19
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Directory Shared LDAP Schema Manager (http://www.apache.org/project/shared-parent/shared-ldap-schema-manager/) org.apache.directory.shared:shared-ldap-schema-manager:jar:0.9.19
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Directory Shared LDIF (http://www.apache.org/project/shared-parent/shared-ldif/) org.apache.directory.shared:shared-ldif:jar:0.9.19
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Axiom API (http://ws.apache.org/axiom/) org.apache.ws.commons.axiom:axiom-api:bundle:1.2.11
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Axiom Impl (http://ws.apache.org/axiom/) org.apache.ws.commons.axiom:axiom-impl:bundle:1.2.11
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - XmlSchema (http://ws.apache.org/commons/XmlSchema) org.apache.ws.commons.schema:XmlSchema:bundle:1.4.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Velocity (http://velocity.apache.org/engine/releases/velocity-1.5/) velocity:velocity:pom:1.5
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'WSO2' (http://www.wso2.org/)
+  - wss4j.wso2 (http://wso2.org) org.apache.ws.security.wso2:wss4j:bundle:1.5.11.wso2v15
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - WSO2 Carbon - Identity Base (http://www.wso2.com) org.wso2.carbon.identity.framework:org.wso2.carbon.identity.base:bundle:5.5.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - WSO2 Carbon - Directory Server (http://wso2.org/components/org.wso2.carbon.ldap.server) org.wso2.carbon.identity.userstore.ldap:org.wso2.carbon.ldap.server:bundle:5.1.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'WSO2 Inc' (http://wso2.com)
+  - WSO2 Carbon - JSR 107 API (http://wso2.org) org.wso2.carbon:javax.cache.wso2:bundle:4.4.7
+    License: Apache License Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - WSO2 Carbon - Base (http://wso2.org) org.wso2.carbon:org.wso2.carbon.base:bundle:4.4.7
+    License: Apache License Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - WSO2 Carbon - Bootstrap (http://wso2.org) org.wso2.carbon:org.wso2.carbon.bootstrap:jar:4.4.7
+    License: Apache License Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - WSO2 Carbon - Kernel (http://wso2.org) org.wso2.carbon:org.wso2.carbon.core:bundle:4.4.7
+    License: Apache License Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - WSO2 Carbon - Logging (http://wso2.org) org.wso2.carbon:org.wso2.carbon.logging:bundle:4.4.7
+    License: Apache License Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - WSO2 Carbon - Queuing (http://wso2.org) org.wso2.carbon:org.wso2.carbon.queuing:bundle:4.4.7
+    License: Apache License Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - WSO2 Carbon - Registry API (http://wso2.org/org.wso2.carbon.registry.api) org.wso2.carbon:org.wso2.carbon.registry.api:bundle:4.4.7
+    License: Apache License Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - WSO2 Carbon - Registry Kernel (http://wso2.org/org.wso2.carbon.registry.core) org.wso2.carbon:org.wso2.carbon.registry.core:bundle:4.4.7
+    License: Apache License Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - WSO2 Carbon - Xbootclasspath library for Registry Kernel (http://wso2.org) org.wso2.carbon:org.wso2.carbon.registry.xboot:jar:4.4.7
+    License: Apache License Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - WSO2 Carbon - Secure Vault (http://wso2.org/org.wso2.carbon.securevault) org.wso2.carbon:org.wso2.carbon.securevault:bundle:4.4.7
+    License: Apache License Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - WSO2 Carbon - User Manager API (http://wso2.org/org.wso2.carbon.user.api) org.wso2.carbon:org.wso2.carbon.user.api:bundle:4.4.7
+    License: Apache License Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - WSO2 Carbon - User Manager Kernel (http://wso2.org) org.wso2.carbon:org.wso2.carbon.user.core:bundle:4.4.7
+    License: Apache License Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - WSO2 Carbon - Utilities (http://wso2.org) org.wso2.carbon:org.wso2.carbon.utils:bundle:4.4.7
+    License: Apache License Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+
+
+
+

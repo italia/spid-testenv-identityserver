@@ -1,0 +1,10 @@
+instructions.configure = \
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../deployment/);\
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../deployment/server/);\
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../deployment/server/webapps/);\
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.mex.server_5.2.1/mexut.war,target:${installFolder}/../../deployment/server/webapps/mexut.war,overwrite:true);\
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../deployment/server/webapps/mex/);\
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.mex.server_5.2.1/metadata.xml,target:${installFolder}/../../deployment/server/webapps/mex/metadata.xml,overwrite:true);\
+
+properties.0.name=org.wso2.carbon.p2.category.type
+properties.0.value=server

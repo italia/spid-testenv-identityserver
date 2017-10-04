@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.metrics.ui" label="WSO2 Carbon - Metrics UI Feature" provider-name="%providerName" version="1.2.2">
+  <description>This feature contains the core bundles required for Metrics UI</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.metrics.data.service.stub" unpack="false" version="1.2.2"/>
+  <plugin id="com.google.gson" unpack="false" version="2.7.0"/>
+  <plugin id="org.wso2.carbon.metrics.view.ui" unpack="false" version="1.2.2"/>
+  <plugin id="slf4j.api" unpack="false" version="1.7.21"/>
+  <plugin id="slf4j.log4j12" unpack="false" version="1.7.21"/>
+  <plugin id="org.wso2.carbon.metrics.data.common" unpack="false" version="1.2.2"/>
+</feature>

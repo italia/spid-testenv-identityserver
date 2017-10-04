@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.ldap.server" label="WSO2 Carbon - LDAP Server Aggregate Feature" provider-name="%providerName" version="5.1.2">
+  <description>Aggregate feature of ldap server feature</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <includes id="org.wso2.carbon.ldap.server.server" optional="false" version="5.1.2"/>
+</feature>

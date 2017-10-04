@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.scim.provider" label="WSO2 Carbon - SCIM - Service Provider Feature" provider-name="%providerName" version="5.2.0">
+  <description>This feature contains the bundles required for the SCIM Service Provider Feature</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.charon.core" unpack="false" version="2.1.0"/>
+  <require>
+    <import feature="org.wso2.carbon.identity.scim.common" match="compatible" version="5.2.0"/>
+    <import feature="org.wso2.carbon.claim.mgt.server" match="compatible" version="5.7.0"/>
+  </require>
+</feature>

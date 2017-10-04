@@ -1,0 +1,51 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+WSO2 Carbon - Event Output Cassandra Adapter Server Feature
+
+
+From: 'an unknown organization'
+  - speed4j (https://github.com/jalkanen/speed4j) com.ecyrd.speed4j:speed4j:jar:0.9
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - UUID (http://stephenc.github.com/eaio-uuid) com.github.stephenc.eaio-uuid:uuid:jar:3.2.0
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+  - Guava: Google Core Libraries for Java (https://github.com/google/guava/guava) com.google.guava:guava:bundle:19.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Metrics Core Library (http://metrics.codahale.com/metrics-core/) com.yammer.metrics:metrics-core:jar:2.2.0
+    License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - servlet-api  javax.servlet:servlet-api:jar:2.5
+
+  - Apache Cassandra (http://cassandra.apache.org) org.apache.cassandra:cassandra-thrift:jar:1.2.5
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Thrift (http://thrift.apache.org) org.apache.thrift:libthrift:pom:0.7.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt")
+  - hector-core (http://github.com/hector-client/hector/hector-core) org.hectorclient:hector-core:bundle:1.1-4
+    License: MIT License  (https://github.com/hector/hector-client/wiki/License)
+  - hector-core.wso2 (http://wso2.org) org.hectorclient.wso2:hector-core:bundle:1.1.4.wso2v1
+
+
+From: 'Apache Software Foundation' (http://www.apache.org/)
+  - HttpClient (http://hc.apache.org/httpcomponents-client) org.apache.httpcomponents:httpclient:jar:4.0.1
+    License: Apache License  (../LICENSE.txt)
+
+From: 'QOS.ch' (http://www.qos.ch)
+  - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.7.13
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+
+From: 'The Apache Software Foundation' (http://jakarta.apache.org)
+  - Codec (http://jakarta.apache.org/commons/codec/) commons-codec:commons-codec:jar:1.3
+    License: The Apache Software License, Version 2.0  (/LICENSE.txt)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Commons Lang (http://commons.apache.org/lang/) commons-lang:commons-lang:jar:2.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Logging (http://commons.apache.org/logging) commons-logging:commons-logging:jar:1.1.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Pool (http://commons.apache.org/pool/) commons-pool:commons-pool:jar:1.5.3
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

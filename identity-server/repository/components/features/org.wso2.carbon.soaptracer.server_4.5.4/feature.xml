@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.soaptracer.server" label="WSO2 Carbon - SOAP Tracer Core Feature" provider-name="%providerName" version="4.5.4">
+  <description>This feature contains the core bundles required for Back-end SOAP Tracer functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.tracer" unpack="false" version="4.5.4"/>
+  <require>
+    <import feature="org.wso2.carbon.core.server" match="equivalent" version="4.4.3"/>
+  </require>
+</feature>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.sts" label="STS Feature" provider-name="%providerName" version="5.2.1">
+  <description>This feature contains the bundles required for STS functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <require>
+    <import feature="org.wso2.carbon.core" match="compatible" version="4.4.7"/>
+  </require>
+  <includes id="org.wso2.carbon.sts.server" optional="false" version="5.2.1"/>
+  <includes id="org.wso2.carbon.sts.ui" optional="false" version="5.2.1"/>
+</feature>

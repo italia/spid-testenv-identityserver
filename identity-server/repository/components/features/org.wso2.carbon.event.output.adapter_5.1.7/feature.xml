@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.event.output.adapter" label="WSO2 Carbon - Event Publisher Output Adapter Feature" provider-name="%providerName" version="5.1.7">
+  <description>This feature bundles all the output adapters.</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <includes id="org.wso2.carbon.event.output.adapter.server" optional="false" version="5.1.7"/>
+  <includes id="org.wso2.carbon.event.output.adapter.email.server" optional="false" version="5.1.7"/>
+  <includes id="org.wso2.carbon.event.output.adapter.http.server" optional="false" version="5.1.7"/>
+  <includes id="org.wso2.carbon.event.output.adapter.jms.server" optional="false" version="5.1.7"/>
+  <includes id="org.wso2.carbon.event.output.adapter.kafka.server" optional="false" version="5.1.7"/>
+  <includes id="org.wso2.carbon.event.output.adapter.logger.server" optional="false" version="5.1.7"/>
+  <includes id="org.wso2.carbon.event.output.adapter.rdbms.server" optional="false" version="5.1.7"/>
+  <includes id="org.wso2.carbon.event.output.adapter.soap.server" optional="false" version="5.1.7"/>
+  <includes id="org.wso2.carbon.event.output.adapter.websocket.server" optional="false" version="5.1.7"/>
+  <includes id="org.wso2.carbon.event.output.adapter.websocket.local.server" optional="false" version="5.1.7"/>
+  <includes id="org.wso2.carbon.event.output.adapter.ui.server" optional="false" version="5.1.7"/>
+  <includes id="org.wso2.carbon.event.output.adapter.wso2event.server" optional="false" version="5.1.7"/>
+  <includes id="org.wso2.carbon.event.output.adapter.mqtt.server" optional="false" version="5.1.7"/>
+  <includes id="org.wso2.carbon.event.output.adapter.sms.server" optional="false" version="5.1.7"/>
+  <includes id="org.wso2.carbon.event.output.adapter.cassandra.server" optional="false" version="5.1.7"/>
+</feature>

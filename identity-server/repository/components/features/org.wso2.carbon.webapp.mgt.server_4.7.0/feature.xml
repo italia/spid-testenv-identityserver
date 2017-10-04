@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.webapp.mgt.server" label="WSO2 Carbon - Webapp Management Core Feature" provider-name="%providerName" version="4.7.0">
+  <description>This feature contains the core bundles required for Back-end Webapp Management functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.sso.agent" unpack="false" version="5.1.0"/>
+  <plugin id="org.wso2.carbon.webapp.deployer" unpack="false" version="4.7.0"/>
+  <plugin id="org.wso2.carbon.tomcat.patch" unpack="false" version="4.7.0"/>
+  <plugin id="org.wso2.carbon.discovery.cxf" unpack="false" version="4.7.0"/>
+  <plugin id="org.wso2.carbon.webapp.mgt" unpack="false" version="4.7.0"/>
+  <require>
+    <import feature="org.wso2.carbon.core.server" match="equivalent" version="4.4.6"/>
+  </require>
+</feature>

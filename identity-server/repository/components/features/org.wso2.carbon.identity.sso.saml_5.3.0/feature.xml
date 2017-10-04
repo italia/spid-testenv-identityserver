@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.sso.saml" label="SAML 2.0 Web SSO Feature" provider-name="%providerName" version="5.3.0">
+  <description>This feature contains the bundles required for Identity SAML2.0 based Single Sign-on functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <includes id="org.wso2.carbon.identity.sso.saml.server" optional="false" version="5.3.0"/>
+  <includes id="org.wso2.carbon.identity.sso.saml.ui" optional="false" version="5.3.0"/>
+  <includes id="org.wso2.carbon.identity.query.saml.server" optional="false" version="5.3.0"/>
+</feature>

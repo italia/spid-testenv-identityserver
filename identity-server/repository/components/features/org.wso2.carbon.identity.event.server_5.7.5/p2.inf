@@ -1,0 +1,5 @@
+instructions.configure = \
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.identity.event.server_5.7.5/identity-event.properties,target:${installFolder}/../../conf/identity/identity-event.properties,overwrite:true);\
+
+properties.0.name=org.wso2.carbon.p2.category.type
+properties.0.value=server

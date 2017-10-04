@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.event.publisher.aggregate" label="WSO2 Carbon - Event Publisher Aggregate Feature" provider-name="%providerName" version="5.1.7">
+  <description>This feature contains the bundles required for Event Publisher feature.</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="siddhi-core" unpack="false" version="3.1.2"/>
+  <require>
+    <import feature="org.wso2.carbon.core" match="equivalent" version="4.4.7"/>
+  </require>
+  <includes id="org.wso2.carbon.event.publisher.server" optional="false" version="5.1.7"/>
+  <includes id="org.wso2.carbon.event.application.deployer" optional="false" version="5.1.7"/>
+  <includes id="org.wso2.carbon.event.processor.manager.commons" optional="false" version="5.1.7"/>
+  <includes id="org.wso2.carbon.event.processor.manager.core" optional="false" version="5.1.7"/>
+  <includes id="org.wso2.carbon.event.stream.server" optional="false" version="5.1.7"/>
+  <includes id="org.wso2.carbon.event.output.adapter" optional="false" version="5.1.7"/>
+</feature>

@@ -1,0 +1,51 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Identity OAuth Server Feature
+
+
+From: 'an unknown organization'
+  - FindBugs-jsr305 (http://findbugs.sourceforge.net/) com.google.code.findbugs:jsr305:jar:1.3.9
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - gdata.core.wso2 (http://wso2.org) com.google.gdata.wso2:gdata-core:bundle:1.47.0.wso2v1
+
+  - Guava: Google Core Libraries for Java (http://code.google.com/p/guava-libraries/guava) com.google.guava:guava:jar:12.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - guava.wso2 (http://wso2.org) com.google.guava.wso2:guava:bundle:12.0.0.wso2v1
+
+  - CORS-Filter Orbit Bundle (http://wso2.org) com.thetransactioncompany.wso2:cors-filter:bundle:1.7.0.wso2v1
+
+  - Java Property Utility Orbit Bundle (http://wso2.org) com.thetransactioncompany.wso2:java-property-utils:bundle:1.9.0.wso2v1
+
+  - waffle.wso2 (http://wso2.org) org.wso2.orbit.com.github.dblock.waffle:waffle-jna:bundle:1.6.wso2v5
+
+  - WSO2 Carbon Orbit - Nimbus JWT Library (http://wso2.org) org.wso2.orbit.com.nimbusds:nimbus-jose-jwt:bundle:2.26.1.wso2v3
+
+  - WSO2 Carbon Orbit - Joda-time (http://wso2.org) org.wso2.orbit.joda-time:joda-time:bundle:2.8.2.wso2v1
+
+  - WSO2 Carbon Orbit - OpenSAML J Library (http://wso2.org) org.wso2.orbit.org.opensaml:opensaml:bundle:2.6.4.wso2v3
+
+
+From: 'Chemouni Uriel' (http://www.minidev.net/)
+  - JSON Small and Fast Parser (http://json-smart/) net.minidev:json-smart:bundle:1.3
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Transaction Company' (http://software.dzhuvinov.com)
+  - CORS Filter (http://software.dzhuvinov.com/cors-filter.html) com.thetransactioncompany:cors-filter:jar:1.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Transaction Company' (http://software.dzhuvinov.com/)
+  - Java Property Utility (http://software.dzhuvinov.com/) com.thetransactioncompany:java-property-utils:jar:1.9
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'WSO2' (http://www.wso2.org/)
+  - WSO2 Carbon - Identity Application Authentication Endpoint (http://wso2.org) org.wso2.carbon.identity.framework:org.wso2.carbon.identity.application.authentication.endpoint:war:5.7.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - WSO2 Carbon - Identity OAuth 2.0 Endpoints (http://wso2.org) org.wso2.carbon.identity.inbound.auth.oauth2:org.wso2.carbon.identity.oauth.endpoint:war:5.3.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

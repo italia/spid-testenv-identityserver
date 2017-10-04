@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.xacml.ui" label="Identity XACML UI Feature" provider-name="%providerName" version="5.7.5">
+  <description>This feature contains the bundles required for Front-end Identity XACML functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.policyeditor.ui" unpack="false" version="5.7.5"/>
+  <plugin id="org.wso2.carbon.identity.entitlement.ui" unpack="false" version="5.7.5"/>
+  <plugin id="org.wso2.carbon.identity.entitlement.stub" unpack="false" version="5.7.5"/>
+  <plugin id="org.wso2.balana.utils" unpack="false" version="1.1.2"/>
+  <plugin id="org.wso2.carbon.policyeditor" unpack="false" version="5.7.5"/>
+  <plugin id="org.wso2.carbon.identity.entitlement.common" unpack="false" version="5.7.5"/>
+  <require>
+    <import match="equivalent" plugin="org.wso2.carbon.ui.menu.tools" version="4.4.11"/>
+    <import feature="org.wso2.carbon.core" match="compatible" version="4.4.11"/>
+  </require>
+</feature>

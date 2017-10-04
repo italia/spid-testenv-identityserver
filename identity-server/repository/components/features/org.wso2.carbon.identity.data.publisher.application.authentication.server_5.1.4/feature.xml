@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.data.publisher.application.authentication.server" label="Identity Authentication Data Publisher Server Feature" provider-name="%providerName" version="5.1.4">
+  <description>This feature contains the core bundles required for publishing Application authentication events to
+        DAS</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.data.publisher.application.authentication" unpack="false" version="5.1.4"/>
+  <require>
+    <import feature="org.wso2.carbon.identity.application.authentication.framework.server" match="compatible" version="5.5.0"/>
+    <import feature="org.wso2.carbon.event.publisher.aggregate" match="compatible" version="5.0.11"/>
+    <import feature="org.wso2.carbon.identity.core" match="compatible" version="5.5.0"/>
+    <import feature="org.wso2.carbon.core" match="compatible" version="4.4.7"/>
+  </require>
+</feature>

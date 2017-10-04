@@ -1,0 +1,5 @@
+instructions.configure = \
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.identity.recovery.server_1.0.2/api#identity#recovery#v0.9.war,target:${installFolder}/../../deployment/server/webapps/api#identity#recovery#v0.9.war,overwrite:true);\
+
+properties.0.name=org.wso2.carbon.p2.category.type
+properties.0.value=server

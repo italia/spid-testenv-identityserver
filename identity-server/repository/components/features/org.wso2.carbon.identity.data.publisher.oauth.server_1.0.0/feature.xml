@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.data.publisher.oauth.server" label="Identity OAuth Data Publisher Server Feature" provider-name="%providerName" version="1.0.0">
+  <description>This feature contains the core bundles required for publishing OAuth events to DAS</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.data.publisher.oauth" unpack="false" version="1.0.0"/>
+  <require>
+    <import feature="org.wso2.carbon.identity.oauth.server" match="compatible" version="5.3.0"/>
+    <import feature="org.wso2.carbon.event.publisher.aggregate" match="compatible" version="5.1.7"/>
+    <import feature="org.wso2.carbon.identity.core" match="compatible" version="5.7.0"/>
+    <import feature="org.wso2.carbon.core" match="compatible" version="4.4.6"/>
+  </require>
+</feature>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.application.mgt" label="Identity Application Managment Feature" provider-name="%providerName" version="5.7.5">
+  <description>WSO2 is an open source application development software company focused on providing service-oriented
+        architecture solutions for professional developers.</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <includes id="org.wso2.carbon.identity.application.mgt.server" optional="false" version="5.7.5"/>
+  <includes id="org.wso2.carbon.identity.application.mgt.ui" optional="false" version="5.7.5"/>
+</feature>

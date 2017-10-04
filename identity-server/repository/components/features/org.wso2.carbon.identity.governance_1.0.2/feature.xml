@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.governance" label="Identity Governance Feature" provider-name="%providerName" version="1.0.2">
+  <description>This feature contains the bundles required for Identity Governance functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <require>
+    <import feature="org.wso2.carbon.core" match="compatible" version="4.4.5"/>
+  </require>
+  <includes id="org.wso2.carbon.identity.governance.server" optional="false" version="1.0.2"/>
+  <includes id="org.wso2.carbon.identity.recovery.server" optional="false" version="1.0.2"/>
+  <includes id="org.wso2.carbon.identity.user.server" optional="false" version="1.0.2"/>
+  <includes id="org.wso2.carbon.identity.captcha.server" optional="false" version="1.0.2"/>
+  <includes id="org.wso2.carbon.identity.password.history.server" optional="false" version="1.0.2"/>
+  <includes id="org.wso2.carbon.identity.password.policy.server" optional="false" version="1.0.2"/>
+  <includes id="org.wso2.carbon.identity.account.suspension.notification.task.server" optional="false" version="1.0.2"/>
+  <includes id="org.wso2.carbon.identity.recovery.ui" optional="false" version="1.0.2"/>
+</feature>

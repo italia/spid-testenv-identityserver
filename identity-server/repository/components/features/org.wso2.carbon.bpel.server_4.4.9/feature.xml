@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.bpel.server" label="WSO2 Carbon - BPEL Core Feature" provider-name="%providerName" version="4.4.9">
+  <description>This feature contains the core bundles required for Back-end BPEL functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.bpel.cluster.notifier" unpack="false" version="4.4.9"/>
+  <plugin id="org.wso2.carbon.bpel.deployer" unpack="false" version="4.4.9"/>
+  <plugin id="org.wso2.carbon.bpel.skeleton" unpack="false" version="4.4.9"/>
+  <plugin id="org.wso2.carbon.bpel" unpack="false" version="4.4.9"/>
+  <plugin id="org.wso2.carbon.bpel.b4p" unpack="false" version="4.4.9"/>
+  <require>
+    <import match="equivalent" plugin="org.wso2.carbon.bpel.common" version="4.4.9"/>
+    <import match="equivalent" plugin="geronimo-j2ee-connector_1.5_spec" version="1.0.0.wso2v1"/>
+    <import match="equivalent" plugin="org.apache.geronimo.specs.geronimo-jpa_2.0_spec" version="1.1"/>
+    <import match="equivalent" plugin="ode" version="1.3.5.wso2v16"/>
+    <import match="equivalent" plugin="geronimo-spec-javamail" version="1.3.0.rc51-wso2v1"/>
+    <import match="equivalent" plugin="commons-primitives" version="1.0.0.wso2v1"/>
+    <import match="equivalent" plugin="js" version="1.7.0.R4wso2v1"/>
+    <import match="equivalent" plugin="geronimo-transaction" version="2.0.1.wso2v1"/>
+    <import match="equivalent" plugin="antlr" version="3.2.0.wso2v1"/>
+    <import match="equivalent" plugin="org.apache.openjpa" version="2.2.0.wso2v1"/>
+    <import match="equivalent" plugin="jibx" version="1.2.1.wso2v1"/>
+    <import match="equivalent" plugin="spring.framework" version="3.2.9.wso2v1"/>
+    <import match="equivalent" plugin="geronimo-kernel" version="2.0.1.wso2v1"/>
+    <import match="equivalent" plugin="bcel" version="5.2.0.wso2v1"/>
+    <import match="equivalent" plugin="axis2-jaxbri" version="1.6.1.wso2v19"/>
+    <import match="equivalent" plugin="saxon.he" version="9.4.0.wso2v1"/>
+    <import match="equivalent" plugin="geronimo-spec-jms" version="1.1.0.rc4-wso2v1"/>
+    <import match="equivalent" plugin="tranql-connector" version="1.1.0.wso2v1"/>
+    <import match="equivalent" plugin="serp" version="1.13.1.wso2v1"/>
+    <import match="equivalent" plugin="cglib" version="2.2.0.wso2v1"/>
+    <import match="equivalent" plugin="geronimo-connector" version="2.0.1.wso2v1"/>
+    <import match="equivalent" plugin="jaxb" version="2.2.5.wso2v1"/>
+    <import match="equivalent" plugin="axion" version="1.0.0.M3-dev-wso2v1"/>
+    <import match="equivalent" plugin="asm" version="1.5.3.wso2v1"/>
+    <import feature="org.wso2.carbon.system.statistics.server" match="compatible" version="4.5.4"/>
+    <import feature="org.wso2.carbon.attachment.mgt.server" match="compatible" version="4.4.9"/>
+    <import feature="org.wso2.carbon.unifiedendpoint.server" match="compatible" version="4.4.9"/>
+    <import feature="org.wso2.carbon.core.server" match="compatible" version="4.4.7"/>
+    <import feature="org.wso2.carbon.service.mgt.server" match="compatible" version="4.7.0"/>
+  </require>
+</feature>

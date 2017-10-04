@@ -1,0 +1,2 @@
+instructions.configure = \
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.as.runtimes.cxf_4.7.0/cxf,target:${installFolder}/../../../lib/runtimes/cxf,overwrite:true);\

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.scim.common" label="WSO2 Carbon - SCIM - Common Feature" provider-name="%providerName" version="5.2.0">
+  <description>This feature contains the bundles required for the SCIM Common Feature</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.scim.common" unpack="false" version="5.2.0"/>
+  <plugin id="org.wso2.charon.core" unpack="false" version="2.1.0"/>
+  <require>
+    <import feature="org.wso2.carbon.core" match="compatible" version="4.4.7"/>
+    <import feature="org.wso2.carbon.identity.core.server" match="compatible" version="5.7.0"/>
+  </require>
+</feature>

@@ -1,0 +1,9 @@
+instructions.configure = \
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../deployment/);\
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../deployment/server/);\
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../deployment/server/eventpublishers/);\
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../deployment/server/eventstreams/);\
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.identity.data.publisher.application.authentication.server_5.1.4/IsAnalytics-Publisher-wso2event-AuthenticationData.xml,target:${installFolder}/../../deployment/server/eventpublishers/IsAnalytics-Publisher-wso2event-AuthenticationData.xml,overwrite:true);\
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.identity.data.publisher.application.authentication.server_5.1.4/IsAnalytics-Publisher-wso2event-SessionData.xml,target:${installFolder}/../../deployment/server/eventpublishers/IsAnalytics-Publisher-wso2event-SessionData.xml,overwrite:true);\
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.identity.data.publisher.application.authentication.server_5.1.4/org.wso2.is.analytics.stream.OverallAuthentication_1.0.0.json,target:${installFolder}/../../deployment/server/eventstreams/org.wso2.is.analytics.stream.OverallAuthentication_1.0.0.json,overwrite:true);\
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.identity.data.publisher.application.authentication.server_5.1.4/org.wso2.is.analytics.stream.OverallSession_1.0.0.json,target:${installFolder}/../../deployment/server/eventstreams/org.wso2.is.analytics.stream.OverallSession_1.0.0.json,overwrite:true);\

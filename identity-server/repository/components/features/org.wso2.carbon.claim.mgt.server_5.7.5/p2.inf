@@ -1,0 +1,6 @@
+instructions.configure = \
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.claim.mgt.server_5.7.5/conf/claim-config.xml,target:${installFolder}/../../conf/claim-config.xml,overwrite:true);\
+
+
+properties.0.name=org.wso2.carbon.p2.category.type
+properties.0.value=server

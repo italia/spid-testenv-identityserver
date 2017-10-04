@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.sts.mgt.server" label="STS management server feature" provider-name="%providerName" version="5.2.1">
+  <description>This feature contains the core bundles required for Back-end functionality of STS
+        management</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.sts.mgt" unpack="false" version="5.2.1"/>
+  <require>
+    <import feature="org.wso2.carbon.identity.provider.server" match="compatible" version="5.2.0"/>
+    <import feature="org.wso2.carbon.security.mgt.server" match="compatible" version="5.7.0"/>
+    <import feature="org.wso2.carbon.core" match="compatible" version="4.4.7"/>
+    <import feature="org.wso2.carbon.identity.core.server" match="compatible" version="5.7.0"/>
+  </require>
+</feature>

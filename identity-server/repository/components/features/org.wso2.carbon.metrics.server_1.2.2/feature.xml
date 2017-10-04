@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.metrics.server" label="WSO2 Carbon - Metrics Server Feature" provider-name="%providerName" version="1.2.2">
+  <description>This feature contains the core bundles required for Metrics</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.metrics.common" unpack="false" version="1.2.2"/>
+  <plugin id="io.dropwizard.metrics.core" unpack="false" version="3.1.2"/>
+  <plugin id="org.wso2.carbon.metrics.manager" unpack="false" version="1.2.2"/>
+  <plugin id="org.wso2.carbon.metrics.das.reporter" unpack="false" version="1.2.2"/>
+  <plugin id="slf4j.api" unpack="false" version="1.7.21"/>
+  <plugin id="slf4j.log4j12" unpack="false" version="1.7.21"/>
+  <plugin id="org.wso2.carbon.metrics.jdbc.reporter" unpack="false" version="1.2.2"/>
+  <plugin id="io.dropwizard.metrics.jvm" unpack="false" version="3.1.2"/>
+  <plugin id="org.wso2.carbon.metrics.data.service" unpack="false" version="1.2.2"/>
+  <plugin id="org.wso2.carbon.metrics.data.common" unpack="false" version="1.2.2"/>
+  <plugin id="org.wso2.carbon.metrics.impl" unpack="false" version="1.2.2"/>
+</feature>

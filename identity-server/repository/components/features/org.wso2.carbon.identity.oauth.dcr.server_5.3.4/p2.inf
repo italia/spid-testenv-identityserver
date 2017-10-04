@@ -1,0 +1,4 @@
+instructions.configure = \
+
+properties.0.name=org.wso2.carbon.p2.category.type
+properties.0.value=server

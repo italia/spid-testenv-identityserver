@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.workflow.mgt.ui" label="WSO2 Carbon - Workflow Management UI Feature" provider-name="%providerName" version="5.7.5">
+  <description>This feature contains the bundles required for Front-end Workflow Management functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.workflow.mgt.stub" unpack="false" version="5.7.5"/>
+  <plugin id="org.wso2.carbon.identity.workflow.mgt.ui" unpack="false" version="5.7.5"/>
+  <require>
+    <import feature="org.wso2.carbon.core.ui" match="compatible" version="4.4.11"/>
+  </require>
+</feature>

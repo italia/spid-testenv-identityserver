@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.databridge.agent.server" label="WSO2 Carbon - Data Bridge - Agent Server Feature" provider-name="%providerName" version="5.1.7">
+  <description>Server feature of the Data Bridge Agent</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.databridge.agent" unpack="false" version="5.1.7"/>
+  <plugin id="httpcore" unpack="false" version="4.3.3.wso2v1"/>
+  <plugin id="commons-pool" unpack="false" version="1.5.6.wso2v1"/>
+  <plugin id="httpclient" unpack="false" version="4.3.1.wso2v2"/>
+  <plugin id="disruptor" unpack="false" version="3.3.2.wso2v2"/>
+  <require>
+    <import feature="org.wso2.carbon.databridge.commons.binary.server" match="equivalent" version="5.1.7"/>
+    <import feature="org.wso2.carbon.databridge.commons.server" match="equivalent" version="5.1.7"/>
+    <import feature="org.wso2.carbon.databridge.commons.thrift.server" match="equivalent" version="5.1.7"/>
+    <import feature="org.wso2.carbon.core.server" match="equivalent" version="4.4.7"/>
+  </require>
+</feature>

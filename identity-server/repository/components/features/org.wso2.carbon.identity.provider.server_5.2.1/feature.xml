@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.provider.server" label="Identity Provider Server Feature" provider-name="%providerName" version="5.2.1">
+  <description>This feature contains the core bundles required for Back-end Provider functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="opensaml" unpack="false" version="2.6.4.wso2v3"/>
+  <plugin id="net.minidev.json-smart" unpack="false" version="1.3.0"/>
+  <plugin id="openid4java" unpack="false" version="1.0.0.wso2v2"/>
+  <plugin id="org.wso2.carbon.identity.provider" unpack="false" version="5.2.1"/>
+  <plugin id="joda-time" unpack="false" version="2.8.2.wso2v1"/>
+  <plugin id="ehcache" unpack="false" version="1.5.0.wso2v3"/>
+  <require>
+    <import match="equivalent" plugin="guice" version="3.0.0.wso2v1"/>
+    <import match="equivalent" plugin="guava" version="12.0.0.wso2v1"/>
+    <import match="equivalent" plugin="step2" version="1.0.0.wso2v2"/>
+    <import match="equivalent" plugin="jdom" version="1.0.0.wso2v1"/>
+    <import feature="org.wso2.carbon.claim.mgt.server" match="compatible" version="5.5.0"/>
+    <import feature="org.wso2.carbon.identity.application.authentication.framework.server" match="compatible" version="5.5.0"/>
+    <import feature="org.wso2.carbon.security.mgt.server" match="compatible" version="5.5.0"/>
+    <import feature="org.wso2.carbon.identity.application.mgt.server" match="compatible" version="5.5.0"/>
+    <import feature="org.wso2.carbon.core" match="compatible" version="4.4.7"/>
+    <import feature="org.wso2.carbon.identity.core.server" match="compatible" version="5.5.0"/>
+  </require>
+</feature>

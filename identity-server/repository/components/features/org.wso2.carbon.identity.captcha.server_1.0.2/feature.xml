@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.captcha.server" label="WSO2 Carbon - Identity Captcha Utils Feature" provider-name="%providerName" version="1.0.2">
+  <description>This feature contains captcha related functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.captcha" unpack="false" version="1.0.2"/>
+</feature>

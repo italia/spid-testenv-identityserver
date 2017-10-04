@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.attachment.mgt" label="WSO2 Carbon - Attachment Management Server Feature" provider-name="%providerName" version="4.4.9">
+  <description>This feature contains the bundles required for Attachment Management Server functionality.</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <require>
+    <import feature="org.wso2.carbon.core" match="equivalent" version="4.4.7"/>
+  </require>
+  <includes id="org.wso2.carbon.attachment.mgt.server" optional="false" version="4.4.9"/>
+</feature>

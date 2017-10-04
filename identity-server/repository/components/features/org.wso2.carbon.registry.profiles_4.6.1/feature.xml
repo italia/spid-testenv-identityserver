@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.registry.profiles" label="WSO2 Carbon - Registry Profiles Feature" provider-name="%providerName" version="4.6.1">
+  <description>Ability to associate a profile with a user account on carbon, which will be stored on the
+        registry.</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <require>
+    <import feature="org.wso2.carbon.registry.core.server" match="equivalent" version="4.6.1"/>
+    <import feature="org.wso2.carbon.registry.core.common" match="equivalent" version="4.6.1"/>
+    <import feature="org.wso2.carbon.registry.core.ui" match="equivalent" version="4.6.1"/>
+  </require>
+  <includes id="org.wso2.carbon.registry.profiles.server" optional="false" version="4.6.1"/>
+  <includes id="org.wso2.carbon.registry.profiles.ui" optional="false" version="4.6.1"/>
+</feature>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.um.ws.service.server" label="Remote user management Server Feature" provider-name="%providerName" version="5.1.4">
+  <description>This feature contains the bundles required for remote user management server functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.um.ws.service" unpack="false" version="5.1.4"/>
+  <require>
+    <import feature="org.wso2.carbon.core" match="compatible" version="4.4.7"/>
+  </require>
+</feature>

@@ -1,0 +1,9 @@
+instructions.configure = \
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../../repository); \
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../../repository/conf); \
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../../repository/conf/identity); \
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.identity.sso.saml.server_5.3.0/samlsso_response.html,target:${installFolder}/../../resources/identity/pages/samlsso_response.html,overwrite:true); \
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.identity.sso.saml.server_5.3.0/sso-idp-config.xml,target:${installFolder}/../../conf/identity/sso-idp-config.xml,overwrite:true); \
+
+properties.0.name=org.wso2.carbon.p2.category.type
+properties.0.value=server

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.tenant.mgt.common.ui" label="WSO2 Carbon - Tenant Management Common UI Feature" provider-name="%providerName" version="4.5.4">
+  <description>This feature contains the common bundles required for Front-end Tenant Management functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.tenant.common.stub" unpack="false" version="4.5.4"/>
+  <require>
+    <import feature="org.wso2.carbon.core" match="equivalent" version="4.4.3"/>
+  </require>
+</feature>

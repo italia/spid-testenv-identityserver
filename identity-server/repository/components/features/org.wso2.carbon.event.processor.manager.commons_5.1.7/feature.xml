@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.event.processor.manager.commons" label="WSO2 Carbon - Event Processor Manager Commons Feature" provider-name="%providerName" version="5.1.7">
+  <description>This feature contains the common bundles required for Event Processor Manager functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.event.processor.manager.commons" unpack="false" version="5.1.7"/>
+  <plugin id="disruptor" unpack="false" version="3.3.2.wso2v2"/>
+</feature>

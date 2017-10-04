@@ -1,0 +1,13 @@
+instructions.configure = \
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.bpel.server_4.4.9/conf/bps.xml,target:${installFolder}/../../conf/bps.xml,overwrite:true);\
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.bpel.server_4.4.9/conf/jpadb.h2.db,target:${installFolder}/../../database/jpadb.h2.db,overwrite:true);\
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.bpel.server_4.4.9/conf/bps-datasources.xml,target:${installFolder}/../../conf/datasources/bps-datasources.xml,overwrite:true);\
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.bpel.server_4.4.9/conf/b4p-coordination-config.xml,target:${installFolder}/../../conf/b4p-coordination-config.xml,overwrite:true);\
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../../dbscripts/bps); \
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../../dbscripts/bps/bpel); \
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.bpel.server_4.4.9/dbscripts,target:${installFolder}/../../../dbscripts/bps/bpel/,overwrite:true);\
+
+properties.0.name=org.wso2.carbon.p2.category.type
+properties.0.value=server
+properties.1.name=org.eclipse.equinox.p2.type.group
+properties.1.value=false

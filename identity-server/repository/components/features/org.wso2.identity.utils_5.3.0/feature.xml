@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.identity.utils" label="WSO2 IS - Utils Features" provider-name="%providerName" version="5.3.0">
+  <description>WSO2 Identity Server</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="hibernate" unpack="false" version="3.2.5.ga-wso2v1"/>
+  <plugin id="bcel" unpack="false" version="5.2.0.wso2v1"/>
+  <plugin id="axis2-jaxbri" unpack="false" version="1.6.1.wso2v11"/>
+  <plugin id="axis2-jibx" unpack="false" version="1.6.1.wso2v11"/>
+  <plugin id="jibx" unpack="false" version="1.2.1.wso2v1"/>
+  <plugin id="cglib" unpack="false" version="2.2.0.wso2v1"/>
+  <plugin id="jaxb" unpack="false" version="2.2.5.wso2v1"/>
+  <plugin id="asm" unpack="false" version="3.1.0.wso2v1"/>
+  <plugin id="ehcache" unpack="false" version="1.5.0.wso2v3"/>
+  <require>
+    <import feature="org.wso2.carbon.core.server" match="equivalent" version="4.4.11"/>
+  </require>
+</feature>

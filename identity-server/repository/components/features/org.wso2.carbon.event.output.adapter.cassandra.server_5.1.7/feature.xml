@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.event.output.adapter.cassandra.server" label="WSO2 Carbon - Event Output Cassandra Adapter Server Feature" provider-name="%providerName" version="5.1.7">
+  <description>This feature contains the bundles required for Output Cassandra Event Adapter functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="libthrift" unpack="false" version="0.7.0.wso2v2"/>
+  <plugin id="cassandra-thrift" unpack="false" version="1.2.13.wso2v4"/>
+  <plugin id="org.wso2.carbon.event.output.adapter.cassandra" unpack="false" version="5.1.7"/>
+  <plugin id="hector-core" unpack="false" version="1.1.4.wso2v1"/>
+  <require>
+    <import feature="org.wso2.carbon.core.server" match="equivalent" version="4.4.7"/>
+  </require>
+</feature>

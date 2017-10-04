@@ -1,0 +1,11 @@
+instructions.configure = \
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../../repository); \
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../../repository/deployment); \
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../../repository/deployment/server); \
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../../repository/deployment/server/eventstreams); \
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../../repository/deployment/server/eventpublishers); \
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.event.handler.notification.server_1.0.0/id_gov_notify_stream_1.0.0.json,target:${installFolder}/../../deployment/server/eventstreams/id_gov_notify_stream_1.0.0.json,overwrite:true);\
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.event.handler.notification.server_1.0.0/EmailPublisher.xml,target:${installFolder}/../../deployment/server/eventpublishers/EmailPublisher.xml,overwrite:true);\
+
+properties.0.name=org.wso2.carbon.p2.category.type
+properties.0.value=server

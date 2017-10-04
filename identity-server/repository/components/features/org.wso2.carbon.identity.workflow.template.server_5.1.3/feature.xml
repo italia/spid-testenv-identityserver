@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.workflow.template.server" label="WSO2 Carbon - Workflow Multi Step Template Core Feature" provider-name="%providerName" version="5.1.3">
+  <description>This feature contains the core bundles required for Back-end Workflow Management functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.workflow.template" unpack="false" version="5.1.3"/>
+  <require>
+    <import feature="org.wso2.carbon.identity.core.server" match="compatible" version="5.5.0"/>
+  </require>
+</feature>

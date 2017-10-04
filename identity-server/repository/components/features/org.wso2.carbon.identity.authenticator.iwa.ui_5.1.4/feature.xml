@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.authenticator.iwa.ui" label="IWA based authenticator UI Feature" provider-name="%providerName" version="5.1.4">
+  <description>This feature contains the bundles required for IWA based authentication UI functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="waffle-jna" unpack="false" version="1.6.0.wso2v5"/>
+  <plugin id="org.wso2.carbon.identity.authenticator.iwa.stub" unpack="false" version="5.1.4"/>
+  <plugin id="org.wso2.carbon.identity.authenticator.iwa.ui" unpack="false" version="5.1.4"/>
+  <require>
+    <import feature="org.wso2.carbon.identity.core" match="compatible" version="5.5.0"/>
+    <import feature="org.wso2.carbon.core" match="compatible" version="4.4.7"/>
+  </require>
+</feature>

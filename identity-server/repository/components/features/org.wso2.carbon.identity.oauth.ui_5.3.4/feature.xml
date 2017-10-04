@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.oauth.ui" label="Identity OAuth UI Feature" provider-name="%providerName" version="5.3.4">
+  <description>This feature contains the bundles required for Front-end Identity OAuth functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.oauth.stub" unpack="false" version="5.3.4"/>
+  <plugin id="org.wso2.carbon.identity.oauth.ui" unpack="false" version="5.3.4"/>
+  <require>
+    <import feature="org.wso2.carbon.core" match="compatible" version="4.4.7"/>
+    <import feature="org.wso2.carbon.identity.oauth.common" match="compatible" version="5.3.4"/>
+  </require>
+</feature>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.tools.saml.validator.server" label="SAML Validator Server Feature" provider-name="%providerName" version="5.1.2">
+  <description>This feature contains the core bundles required for Back-end SAML Validator functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.tools.saml.validator" unpack="false" version="5.1.2"/>
+  <require>
+    <import feature="org.wso2.carbon.core" match="compatible" version="4.4.7"/>
+    <import feature="org.wso2.carbon.identity.sso.saml.server" match="compatible" version="5.1.3"/>
+    <import feature="org.wso2.carbon.identity.core.server" match="compatible" version="5.5.0"/>
+  </require>
+</feature>

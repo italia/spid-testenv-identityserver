@@ -1,0 +1,6 @@
+instructions.configure = \
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.identity.mgt.server_5.7.5/identity-mgt.properties,target:${installFolder}/../../conf/identity/identity-mgt.properties,overwrite:true);\
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.identity.mgt.server_5.7.5/accountrecoveryendpoint.war,target:${installFolder}/../../deployment/server/webapps/accountrecoveryendpoint.war,overwrite:true);\
+
+properties.0.name=org.wso2.carbon.p2.category.type
+properties.0.value=server

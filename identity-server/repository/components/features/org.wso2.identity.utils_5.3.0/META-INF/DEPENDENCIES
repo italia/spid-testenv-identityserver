@@ -1,0 +1,95 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+WSO2 IS - Utils Features
+
+
+From: 'an unknown organization'
+  - AntLR (http://www.antlr.org/) antlr:antlr:jar:2.7.6
+
+  - asm.wso2 (http://wso2.org) asm.wso2:asm:bundle:3.1.wso2v1
+
+  - bcel  bcel:bcel:jar:5.1
+
+  - bcprov-jdk15  bouncycastle:bcprov-jdk15:jar:132
+
+  - Code Generation Library (http://cglib.sourceforge.net/) cglib:cglib:jar:2.2
+    License: ASF 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - WSO2 Carbon Orbit - CGLib Bundle (http://wso2.org) cglib.wso2:cglib:bundle:2.2.wso2v1
+
+  - jaxbri.wso2 (http://wso2.org) com.sun.xml.bind.wso2:jaxb:bundle:2.2.5.wso2v1
+
+  - jakarta-regexp  jakarta-regexp:jakarta-regexp:jar:1.4
+
+  - ehcache.wso2 (http://wso2.org) net.sf.ehcache.wso2:ehcache:bundle:1.5.0.wso2v3
+
+  - jsr107cache (http://maven.apache.org) net.sf.jsr107cache:jsr107cache:jar:1.0
+
+  - axis2.jaxbri.wso2 (http://wso2.org) org.apache.axis2.wso2:axis2-jaxbri:bundle:1.6.1.wso2v11
+
+  - axis2.jibx.wso2 (http://wso2.org) org.apache.axis2.wso2:axis2-jibx:bundle:1.6.1.wso2v11
+
+  - bcel  org.apache.bcel:bcel:jar:5.2
+
+  - bcel.wso2 (http://wso2.org) org.apache.bcel.wso2:bcel:bundle:5.2.0.wso2v1
+
+  - hibernate.wso2 (http://wso2.org) org.hibernate.wso2:hibernate:bundle:3.2.5.ga-wso2v1
+
+  - jibx-bind (http://jibx.sourceforge.net) org.jibx:jibx-bind:jar:1.2.1
+    License: BSD  (http://jibx.sourceforge.net/jibx-license.html)
+  - jibx-run (http://jibx.sourceforge.net) org.jibx:jibx-run:jar:1.2.1
+    License: BSD  (http://jibx.sourceforge.net/jibx-license.html)
+  - jibx.wso2 (http://wso2.org) org.jibx.wso2:jibx:bundle:1.2.1.wso2v1
+
+  - regexp  regexp:regexp:jar:1.2
+
+  - StAX API (http://stax.codehaus.org/) stax:stax-api:jar:1.0.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Apache Software Foundation' (http://www.apache.org)
+  - JTA 1.1 (http://geronimo.apache.org/specs/geronimo-jta_1.1_spec) org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Codehaus' (http://www.codehaus.org/)
+  - Woodstox (http://woodstox.codehaus.org) org.codehaus.woodstox:wstx-asl:jar:3.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Dawid Kurzyniec' (http://www.mathcs.emory.edu/~dawidk/)
+  - Backport of JSR 166 (http://backport-jsr166.sourceforge.net/) backport-util-concurrent:backport-util-concurrent:jar:3.1
+    License: Public Domain  (http://creativecommons.org/licenses/publicdomain)
+
+From: 'JBoss Inc.' (http://www.jboss.com)
+  - Hibernate (http://www.hibernate.org) org.hibernate:hibernate:jar:3.2.5.ga
+    License: GNU LESSER GENERAL PUBLIC LICENSE  (http://www.gnu.org/licenses/lgpl.txt)
+
+From: 'Luck Consulting Pty Ltd' (http://gregluck.com)
+  - Ehcache Core (http://ehcache.sf.net/ehcache) net.sf.ehcache:ehcache:jar:1.5.0-wso2v3
+    License: The Apache Software License, Version 2.0  (http://ehcache.sourceforge.net/LICENSE.txt)
+
+From: 'MetaStuff Ltd.' (http://sourceforge.net/projects/dom4j)
+  - dom4j (http://dom4j.org) dom4j:dom4j:jar:1.6.1
+
+
+From: 'ObjectWeb' (http://www.objectweb.org/)
+  - ASM Core (http://asm.objectweb.org/asm/) asm:asm:jar:3.1
+
+  - asm-attrs (http://asm.objectweb.org/) asm:asm-attrs:jar:1.5.3
+
+
+From: 'Oracle Corporation' (http://www.oracle.com/)
+  - JAXB Reference Implementation (http://jaxb.java.net/) com.sun.xml.bind:jaxb-impl:jar:2.2.5
+    License: CDDL 1.1  (https://glassfish.java.net/public/CDDL+GPL_1_1.html)    License: GPL2 w/ CPE  (https://glassfish.java.net/public/CDDL+GPL_1_1.html)
+  - JAXB XJC (http://jaxb.java.net/) com.sun.xml.bind:jaxb-xjc:jar:2.2.5
+    License: CDDL 1.1  (https://glassfish.java.net/public/CDDL+GPL_1_1.html)    License: GPL2 w/ CPE  (https://glassfish.java.net/public/CDDL+GPL_1_1.html)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Apache Commons Collections (http://commons.apache.org/collections/) commons-collections:commons-collections:jar:3.2.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Logging (http://commons.apache.org/logging) commons-logging:commons-logging:jar:1.1.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+
