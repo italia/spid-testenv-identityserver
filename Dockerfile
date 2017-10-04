@@ -3,9 +3,9 @@ MAINTAINER Umberto Rosini, rosini@agid.gov.it
 
 # Update and install utilities
 RUN apt-get update && \
-    apt-get install curl && \
-    apt-get install vi && \
-    apt-get install netstat
+    apt-get install -y curl && \
+    apt-get install -y vim && \
+    apt-get install -y net-tools
 
 # Create user to run is and the backoffice (not root for security reason!)
 RUN useradd --user-group --create-home --shell /bin/false yoda
@@ -23,16 +23,18 @@ ENV JAVA_HOME="/usr/lib/jvm/java-8-oracle"
 
 # Identity Server
 RUN apt-get install curl && \
-    mkdir /spid-testenv && \
-    curl -o /spid-testenvironment/spid-testenvironment-identityserver.tar.gz https://codeload.github.com/italia/spid-testenvironment-identityserver/tar.gz/v0.9-beta.1 && \
+    mkdir /spid-testenvironment && \
+    curl -o /spid-testenvironment/spid-testenv-identityserver.tar.gz https://codeload.github.com/italia/spid-testenv-identityserver/tar.gz/v0.9-beta.1 && \
     mkdir /spid-testenvironment/is && \
     tar -zxvf /spid-testenvironment/spid-testenv-identityserver.tar.gz -C /spid-testenvironment/is --strip-components=1 && \
     rm -f /spid-testenvironment/spid-testenv-identityserver.tar.gz && \
     chmod +x /spid-testenvironment/is/identity-server/bin/wso2server.sh
 
 # Set custom conf
-RUN mv /spid-testenvironment/is/spid-conf/conf/* /spid-testenvironment/is/identity-server/repository/conf/ 
-    
+RUN mv /spid-testenvironment/is/spid-confs/conf/conf/carbon.xml /spid-testenvironment/is/identity-server/repository/conf/ && \
+    mv /spid-testenvironment/is/spid-confs/conf/conf/claim-config.xml /spid-testenvironment/is/identity-server/repository/conf/ &&\
+    mv /spid-testenvironment/is/spid-confs/conf/bin/wso2server.sh /spid-testenvironment/is/identity-server/bin/ 
+
 # Port exposed
 EXPOSE 9443
 
