@@ -45,6 +45,6 @@ USER yoda
 # RUN /spid-testenvironment/is/identity-server/bin/wso2server.sh start > /dev/null &
 # RUN /spid-testenvironment/is/identity-server/bin/wso2server.sh stop > /dev/null &
 
-WORKDIR /spid-testenvironment/is/identity-server/bin
+WORKDIR /spid-testenvironment/is/identity-server
 
-ENTRYPOINT ["wso2server.sh"]
+ENTRYPOINT ["bin/wso2server.sh"]
