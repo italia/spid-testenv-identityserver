@@ -158,7 +158,24 @@
 		<Parameter name="showEmailAddressInUI">true</Parameter> 	
 	</AuthenticatorConfig>
 	
-
+	<AuthenticatorConfig name="EmailOTPLoA3" enabled="true">
+		<Parameter name="EMAILOTPAuthenticationEndpointURL">https://idp.spid.gov.it:9443/emailotpauthenticationendpoint/emailotp.jsp</Parameter>
+		<Parameter name="EmailOTPAuthenticationEndpointErrorPage">https://idp.spid.gov.it:9443/emailotpauthenticationendpoint/emailotpError.jsp</Parameter>
+		<Parameter name="EmailAddressRequestPage">https://idp.spid.gov.it:9443/emailotpauthenticationendpoint/emailAddress.jsp</Parameter>
+		<Parameter name="usecase">local</Parameter>
+		<Parameter name="secondaryUserstore">primary</Parameter>
+		<Parameter name="EMAILOTPMandatory">false</Parameter>
+		<Parameter name="sendOTPToFederatedEmailAttribute">true</Parameter>
+		<Parameter name="federatedEmailAttributeKey">email</Parameter>
+		<Parameter name="EmailOTPEnableByUserClaim">false</Parameter>
+		<Parameter name="CaptureAndUpdateEmailAddress">false</Parameter>
+		<Parameter name="showEmailAddressInUI">true</Parameter>
+		<Parameter name="AuthnContextClassRefLoA2">urn:oasis:names:tc:SAML:2.0:ac:classes:SpidL1</Parameter>
+		<Parameter name="AuthnContextClassRefLoA3">urn:oasis:names:tc:SAML:2.0:ac:classes:SpidL2</Parameter>
+		<Parameter name="AuthnContextClassRefLoA4">urn:oasis:names:tc:SAML:2.0:ac:classes:SpidL3</Parameter>
+		<Parameter name="AttributesConfirmPage">https://idp.spid.gov.it:9443/emailotploa3authenticationendpoint/attributesConfirm.jsp</Parameter>
+		<Parameter name="ErrorPage">https://idp.spid.gov.it:9443/emailotploa3authenticationendpoint/attributesConfirmError.jsp</Parameter>
+	</AuthenticatorConfig>
 
 	<AuthenticatorConfig name="x509CertificateAuthenticator" enabled="true">
             <Parameter name="AuthenticationEndpoint">https://localhost:8443/x509-certificate-servlet</Parameter>

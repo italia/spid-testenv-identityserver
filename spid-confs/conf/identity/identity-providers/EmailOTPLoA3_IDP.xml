@@ -1,0 +1,36 @@
+<IdentityProvider>
+    <IdentityProviderName>SHARED_EmailOTPLoA3_IDP</IdentityProviderName>
+    <DisplayName>EmailOTPLoA3_IDP</DisplayName>
+    <IdentityProviderDescription>EmailOTPLoA3_IDP</IdentityProviderDescription>
+    <Alias>https://localhost:9444/oauth2/token/</Alias>
+    <IsPrimary></IsPrimary>
+    <IsEnabled>true</IsEnabled>
+    <IsFederationHub></IsFederationHub>
+    <HomeRealmId></HomeRealmId>
+    <ProvisioningRole></ProvisioningRole>
+    <FederatedAuthenticatorConfigs>
+        <EmailOTPLoA3>
+            <Name>EmailOTPLoA3</Name>
+            <DisplayName>Email OTP LoA3</DisplayName>        
+            <IsEnabled>true</IsEnabled>
+            <Properties>
+                <property>
+                    <Name>Email</Name>
+                    <Value></Value>
+                </property>
+                <property>
+                    <Name>EmailAPI</Name>
+                    <Value></Value>
+                </property>
+            </Properties>
+        </EmailOTPLoA3>
+    </FederatedAuthenticatorConfigs>
+    <DefaultAuthenticatorConfig>EmailOTPLoA3</DefaultAuthenticatorConfig>
+    <ProvisioningConnectorConfigs>
+    </ProvisioningConnectorConfigs>
+    <DefaultProvisioningConnectorConfig></DefaultProvisioningConnectorConfig>
+    <ClaimConfig></ClaimConfig>
+    <Certificate></Certificate>
+    <PermissionAndRoleConfig></PermissionAndRoleConfig>
+    <JustInTimeProvisioningConfig></JustInTimeProvisioningConfig>
+</IdentityProvider>
