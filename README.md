@@ -1,5 +1,7 @@
 # SPID TEST ENVIRONMENT IDENTITY SERVER
 
+[![](https://img.shields.io/github/issues/italia/spid-testenv.svg)](https://github.com/italia/spid-testenv/issues "Issue tracker")
+
 SPID Test Environment è rivolto ai Service Provider che vogliono testare la propria integrazione con SPID senza avere a disposizione identità SPID reali.
 Consiste in un Identity Provider da far girare in locale o su un proprio server, in cui si possono liberamente configurare delle identità di test.
 
