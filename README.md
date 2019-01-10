@@ -1,3 +1,5 @@
+> ⚠️ Questo repository è **deprecato**. È ora disponibile il nuovo IdP di test: https://github.com/italia/spid-testenv2
+
 # SPID TEST ENVIRONMENT IDENTITY SERVER
 
 [![](https://img.shields.io/github/issues/italia/spid-testenv.svg)](https://github.com/italia/spid-testenv/issues "Issue tracker")
